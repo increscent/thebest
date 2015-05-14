@@ -1,0 +1,18 @@
+{
+  "name": "favorite-song",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "body-parser": "~1.12.3",
+    "express": "~4.12.3",
+    "express-handlebars": "^2.0.1",
+    "fs": "0.0.2",
+    "mongoose": "~4.0.2"
+  }
+}

@@ -1,0 +1,40 @@
+.side-padding {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+@media (max-width: 768px) {
+  .side-padding {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .question {
+    padding-top: 2rem;
+    padding-bottom: 0;
+  }
+
+  .input-container .track-container, .input-container .artist-container {
+      display: block;
+      position: relative;
+      width: 90%;
+      margin: 1rem auto;
+      text-align: left;
+  }
+
+  .input-container input {
+    width: 100%;
+  }
+
+  .input-container .submit-container {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    text-align: right;
+  }
+
+  .options {
+    width: 100%;
+  }
+}

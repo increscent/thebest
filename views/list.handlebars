@@ -1,0 +1,15 @@
+<div class="track-list side-padding inner-content">
+  <div class="track-row heading-row">
+    <div class="track-col name">Song</div>
+    <div class="track-col artist">Artist</div>
+    <div class="track-col popularity">Popularity</div>
+  </div>
+  
+  {{#each tracks}}
+    <div class="track-row">
+      <div class="track-col name">{{ this.name }}</div>
+      <div class="track-col artist">{{ this.artist }}</div>
+      <div class="track-col popularity">{{ this.popularity }}</div>
+    </div>
+  {{/each}}
+</div>
